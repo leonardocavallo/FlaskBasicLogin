@@ -17,7 +17,6 @@ class database:
 
     def query_user(self, user_id):
         user = self.users_collection.find_one({'_id': ObjectId(user_id)})
-        print(user)
         return user
     
     def query_username(self, username):
