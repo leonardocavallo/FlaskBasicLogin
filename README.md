@@ -15,7 +15,7 @@ FlaskBasicLogin is a simple web application that demonstrates a basic login syst
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/FlaskBasicLogin.git
+    git clone https://github.com/leonardocavallo/FlaskBasicLogin
     ```
 2. Navigate to the project directory:
     ```bash
@@ -25,6 +25,13 @@ FlaskBasicLogin is a simple web application that demonstrates a basic login syst
     ```bash
     pip install -r requirements.txt
     ```
+4. **Set up environment variables**:
+    ```bash
+    cp .env.example .env
+    ```
+    Open the `.env` file and change the following variables:
+    - `JWT_SECRET_KEY`: Change this to a strong secret key.
+    - `DB_CONNECTION_STRING`: Change this to your MongoDB connection string.
 
 ## Usage 🚀
 
